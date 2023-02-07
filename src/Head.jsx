@@ -1,4 +1,4 @@
-const imgMe = '/me.png'
+const imgMe = './public/me.png'
 
 export default function Header(){
     return(
