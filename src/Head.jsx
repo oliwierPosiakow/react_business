@@ -1,9 +1,11 @@
+const imgMe = '../public/me.png'
+
 export default function Header(){
     return(
         <header>
             <img 
                 className="header--img"
-                src="../public/me.png"
+                src={imgMe}
             />
             <h1>Oliwier Posiakow</h1>
             <h3> Junior Frontend Developer</h3>
